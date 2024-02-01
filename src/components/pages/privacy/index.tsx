@@ -3,7 +3,7 @@ import { InferGetStaticPropsType } from 'next';
 import React from 'react';
 import { useTranslation } from 'next-i18next';
 import { Layout } from '@/src/layouts';
-import type { getStaticProps } from './props';
+import type { getStaticProps } from '@/src/components/pages/home/props';
 import { privacyContent } from './privacy';
 
 export const Privacy: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = props => {
